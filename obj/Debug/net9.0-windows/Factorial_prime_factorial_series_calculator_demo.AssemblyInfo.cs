@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Factorial_prime_factorial_series_calculator_demo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55dff5de7872e30d1e665129ef339743904aa8ba")]
 [assembly: System.Reflection.AssemblyProductAttribute("Factorial_prime_factorial_series_calculator_demo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Factorial_prime_factorial_series_calculator_demo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -5,6 +5,21 @@ public partial class Form1 : Form
     public Form1()
     {
         InitializeComponent();
+        Resize += Form1_Resize;
+        CenterPanel();
+    }
+    
+    private void Form1_Resize(object? sender, EventArgs e)
+    {
+        CenterPanel();
+    }
+
+    private void CenterPanel()
+    {
+        panel1.Location = new Point(
+            (ClientSize.Width - panel1.Width) / 2,
+            (ClientSize.Height - panel1.Height) / 2
+        );
     }
 
     private int? GetInputInteger()
